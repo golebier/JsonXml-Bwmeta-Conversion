@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element xmlns="http://yadda.icm.edu.pl/bwmeta-1.2.0.xsd" id="bwmeta1.element.010cddd4-8a38-3152-90f7-cc6e50e2af4e">
+  <affiliation id="Aff1">
+    <attribute key="org-division" value="Department of Industrial Engineering" />
+    <attribute key="org-name" value="Texas A&amp;M University, College Station" />
+    <attribute key="address-postcode" value="77843-3131" />
+    <attribute key="address-state" value="TX" />
+    <attribute key="address-country" value="USA" />
+    <text>Department of Industrial Engineering, Texas A&amp;M University, College Station</text>
+  </affiliation>
+  <affiliation id="Aff2">
+    <attribute key="org-division" value="Graduate School of Management and RUTCOR" />
+    <attribute key="org-name" value="Rutgers University" />
+    <attribute key="address-postcode" value="07102" />
+    <attribute key="address-city" value="Newark" />
+    <attribute key="address-state" value="NJ" />
+    <attribute key="address-country" value="USA" />
+    <text>Graduate School of Management and RUTCOR, Rutgers University</text>
+  </affiliation>
+  <attribute key="springer.type" value="OriginalPaper" />
+  <attribute key="springer.numbering-style" value="Unnumbered" />
+  <attribute key="springer.toc-levels" value="0" />
+  <attribute key="springer.contains-esm" value="No" />
+  <attribute key="springer.id" value="Art15" />
+  <attribute key="springer.id" value="353935" />
+  <attribute key="copyright-holder" value="Kluwer Academic Publishers" />
+  <attribute key="copyright-year" value="2001" />
+  <attribute key="source-id" value="kluwer/kluwer_backfiles/PUB=Baltzer_Science_Publishers,_Baarn-Kluwer_Academic_Publishers-Dordrecht/JOU=10479/VOL=102/ISU=1-4/ART=2004_353935" />
+  <contents>
+    <file format="application/pdf" id="file.0a9057efa77011e27ec1165b1b6f1db9" langs="und" size="148911" type="full-text">
+      <location>yadda.pack:/archive/bwmeta1.element.010cddd4-8a38-3152-90f7-cc6e50e2af4e/content/full-text/10479_2004_Article_353935.pdf</location>
+      <name lang="zxx" type="file-name">10479_2004_Article_353935.pdf</name>
+      <signature type="md5">0A9057EFA77011E27EC1165B1B6F1DB9</signature>
+    </file>
+  </contents>
+  <contributor institution="false" role="author">
+    <affiliation-ref ref="Aff1" />
+    <attribute key="springer.display-order" value="Western" />
+    <name lang="zxx" type="canonical">Chung-Yee Lee</name>
+    <name lang="zxx" type="surname">Lee</name>
+    <name lang="zxx" type="forename">Chung-Yee</name>
+  </contributor>
+  <contributor institution="false" role="author">
+    <affiliation-ref ref="Aff2" />
+    <attribute key="springer.display-order" value="Western" />
+    <name lang="zxx" type="canonical">Lei Lei</name>
+    <name lang="zxx" type="surname">Lei</name>
+    <name lang="zxx" type="forename">Lei</name>
+  </contributor>
+  <date type="registration" day="19" month="10" year="2004" />
+  <description lang="eng" type="abstract">In many large-scale project scheduling problems, multiple projects are either taking place at the same time or scheduled into a tight sequence in order to efficiently share a common resource. One example of this is the computing resource allocation at an Application Service Provider (ASP) which provides data processing services for multiple paying customers. Typical services provided by ASPs are data mining, payroll processing, internet-based storage backup services and Customer Relation Management (CRM) services. The processing mode of an ASP can be either batch or concurrent, depending on the type service rendered. For example, for CPU intensive or long processing time required services, it would be more economical to processes one customer request at a time in order to minimize the context switching overhead. While the data transaction processes within a service request are subject to certain precedence relationships, the requests from different customers to an ASP are independent of each other, and the total time required to process a service request depends on the computing resource allocated to that request. The related issue of achieving an optimal use of resources at ASPs leads to problem of project scheduling with controllable project duration. In this paper, we present efficient algorithms for solving several special cases of such multi-project scheduling problems with controllable project duration and hard resource constraints. Two types of problems are considered. In type I, the duration of each project includes a constant and a term that is inversely proportional to the amount of resource allocated. In type II, the duration of each individual project is a continuous decreasing function of the amount of resource allocated.</description>
+  <id scheme="bwmeta1.id-class.DOI" value="10.1023/A:1010918518726" />
+  <language lang="eng" />
+  <name lang="eng" type="canonical">Multiple-Project Scheduling with Controllable Project Duration and Hard Resource Constraint: Some Solvable Cases</name>
+  <structure hierarchy="bwmeta1.hierarchy-class.hierarchy_Journal">
+    <ancestor level="bwmeta1.level.hierarchy_Journal_Publisher" identity="bwmeta1.element.9ece9512-e842-3813-af96-0219c3968e0a">
+      <name lang="und" type="canonical">Springer US</name>
+    </ancestor>
+    <ancestor level="bwmeta1.level.hierarchy_Journal_Journal" identity="bwmeta1.element.springer-000000010479">
+      <name lang="und" sort-key="Annals Operations Research" type="canonical">Annals of Operations Research</name>
+    </ancestor>
+    <ancestor level="bwmeta1.level.hierarchy_Journal_Year" identity="bwmeta1.element.e752b15a-a436-32bb-8a78-4b8438431789">
+      <name lang="zxx" type="canonical">2001</name>
+    </ancestor>
+    <ancestor level="bwmeta1.level.hierarchy_Journal_Volume" identity="bwmeta1.element.b63bfc5d-7aad-3277-8dba-f380ed89bba4">
+      <name lang="zxx" type="canonical">102</name>
+    </ancestor>
+    <ancestor level="bwmeta1.level.hierarchy_Journal_Number" identity="bwmeta1.element.f76f629c-7ea6-3178-9dfd-2d6c6057254e">
+      <name lang="zxx" type="canonical">1-4</name>
+    </ancestor>
+    <current level="bwmeta1.level.hierarchy_Journal_Article" position="287-307" />
+  </structure>
+  <tags lang="eng" type="keyword">
+    <tag>project scheduling</tag>
+    <tag>resource constraints</tag>
+    <tag>controllable duration</tag>
+  </tags>
+</element>
